@@ -1,5 +1,5 @@
 package pregunta2;
-//clase cuenta
+
 public class Cuenta {
 
     private int saldo;
