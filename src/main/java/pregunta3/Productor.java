@@ -7,12 +7,13 @@ public class Productor implements Runnable{
                 this.colaCompartida=cola;
         }
         public void run() {
-           while (true){
+            System.out.println("Productor encoló el numero:");
+           /*while (true){
                    int num=(10);
-                   while (colaCompartida.encolar(num)==false){
+                   while (colaCompartida.encolar(num)!=false){
                    } /*Fin del while*/
 
-                   System.out.println("Productor encoló el numero:"+num);
+                //   System.out.println("Productor encoló el numero:"+num);/*
            } /*Fin del while externo*/
         } /*Fin de run()*/
-} /*Fin de la clase*/
+//} /*Fin de la clase*/
