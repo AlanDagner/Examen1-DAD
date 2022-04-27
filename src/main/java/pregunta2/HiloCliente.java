@@ -1,3 +1,5 @@
+package pregunta2;
+
 public class HiloCliente implements Runnable{
     Cuenta cuenta;
     int cantidad;
