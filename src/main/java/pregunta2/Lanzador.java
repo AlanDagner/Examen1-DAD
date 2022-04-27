@@ -1,3 +1,5 @@
+package pregunta2;
+
 public class Lanzador {
     public static void main(String[] args) throws InterruptedException{
         Cuenta cuenta = new Cuenta (100);
